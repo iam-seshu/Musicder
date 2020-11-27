@@ -35,7 +35,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("qthree").download = songname + ".mp3";
     }
 };
-xmlhttp.open("GET", "https://jiosavaan.api.seshu.co/song?id=" + id, true);
+xmlhttp.open("GET", "https://jioapi.vercel.app/song?id=" + id, true);
 xmlhttp.send();
 
 /*!
