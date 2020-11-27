@@ -57,7 +57,7 @@ xmlhttp.onreadystatechange = function() {
     };
 };
 //this is the song detail api
-xmlhttp.open("GET", "https://jiosavaan.api.seshu.co/song?id=" + songid, true);
+xmlhttp.open("GET", "https://jioapi.vercel.app/song?id=" + songid, true);
 xmlhttp.send();
 
 //when lyricsask tapped lyrics will shown (if lyrics available)
