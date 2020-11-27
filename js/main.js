@@ -70,7 +70,7 @@ function searchF() {
         }
     });
 
-    search.open("GET", "https://jiosavaan.api.seshu.co/search?query=" + songquery);
+    search.open("GET", "https://jioapi.vercel.app/search?query=" + songquery);
     search.send();
 }
 
